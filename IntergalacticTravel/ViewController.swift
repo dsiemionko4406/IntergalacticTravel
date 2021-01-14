@@ -15,6 +15,19 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func whenBlueStarButtonPressed(_ sender: Any) {
+        performSegue(withIdentifier: "BlueSegue", sender: nil)
+        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let nvc = segue.destination as! StarViewController
+        
+        if segue.identifier == "BlueSegue" {
+            nvc.starName = "BlueDwarf"
+        } else {
+            nvc.starName = "RedDwarf"
+        }
+    }
 }
 

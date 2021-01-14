@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7305479F25A8FC1400B34AB5 /* StarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7305479E25A8FC1400B34AB5 /* StarViewController.swift */; };
 		73499F9725A65539003B8975 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73499F9625A65539003B8975 /* AppDelegate.swift */; };
 		73499F9925A65539003B8975 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73499F9825A65539003B8975 /* SceneDelegate.swift */; };
 		73499F9B25A65539003B8975 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73499F9A25A65539003B8975 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7305479E25A8FC1400B34AB5 /* StarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarViewController.swift; sourceTree = "<group>"; };
 		73499F9325A65539003B8975 /* IntergalacticTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntergalacticTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73499F9625A65539003B8975 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73499F9825A65539003B8975 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				73499F9825A65539003B8975 /* SceneDelegate.swift */,
 				73499F9A25A65539003B8975 /* ViewController.swift */,
 				73499F9C25A65539003B8975 /* Main.storyboard */,
+				7305479E25A8FC1400B34AB5 /* StarViewController.swift */,
 				73499F9F25A6553B003B8975 /* Assets.xcassets */,
 				73499FA125A6553B003B8975 /* LaunchScreen.storyboard */,
 				73499FA425A6553B003B8975 /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7305479F25A8FC1400B34AB5 /* StarViewController.swift in Sources */,
 				73499F9B25A65539003B8975 /* ViewController.swift in Sources */,
 				73499F9725A65539003B8975 /* AppDelegate.swift in Sources */,
 				73499F9925A65539003B8975 /* SceneDelegate.swift in Sources */,
